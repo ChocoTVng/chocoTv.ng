@@ -1,0 +1,541 @@
+.logo {
+    background-size: 100%;
+    padding-right:20rem;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (min-width:700%) {
+    .logo{
+        float: none;
+        width: 100%;
+        flex-direction: column;
+       
+    }
+}
+.header{
+    padding:80px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 0.005em;
+    padding-bottom: 0.005em;
+}
+.header p{text-align: center;
+
+}
+
+.header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: cyan;
+    background-color: cornflowerblue;
+    
+}
+.column p{
+    font-size: 10px;
+    font-weight: bolder;
+}
+.navbar{
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+.navbar a{
+    float:left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right{
+    float: right;
+}
+
+.navbar a:hover{
+    background-color: grey;
+    color: black;
+}
+.container-menu{
+    align-items: right;
+    display: inline-block;
+    cursor:pointer;
+}
+/*Ensure proper sizing*/
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:700%) {
+    .side{
+        float: none;
+        width: 100%;
+        flex-direction: column;
+       
+    }
+}
+.side{
+    float: left;
+    
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.side .h{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 25px;
+    color: forestgreen;
+}
+
+.main{
+    
+    flex: 50%;
+    background-color: rgb(168, 114, 114);
+    padding: 20px;
+}
+@media screen and (max-width:700px) {
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+/*footer*/
+.footer{
+    background-color: teal;
+    align-content: center;
+    
+    
+    
+}
+.foot{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+@media screen and (max-width:700px) {
+    .footer{
+       
+        width: 100%;
+    }
+}
+
+/* dropdown menu and topnav css
+this is the style sheet for the topnav and the dropdown menu*/
+.topnav{
+    background-color: #C67A1E;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu {
+    background-color: #146031;
+
+    color: white;
+}
+.topnav .icon{
+    display: none;
+}
+.dropdown{
+    float: right;
+    overflow: auto;
+    background-color: #146031;
+}
+.dropdown .dropbtn{
+    font-size: 17px;
+    border:none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.red{
+    background-color: rgb(143, 38, 38);
+}
+.dropdown-content{
+    display: none;
+    position: none;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(114, 57, 57, 0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    float: none;
+    color: white;
+    padding:12px 7px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.topnav a:hover, .dropdown:hover
+.dropbtn{
+    background-color: white;
+    color: rgb(101, 214, 101);
+}
+.dropdown-content a:hover{
+background-color: rgb(101, 214, 101);
+color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: list-item;
+}
+
+@media screen and (max-width:300px){
+    .topnav a:not(:first-child),.dropdown .dropbtn{
+        display: none;
+    }
+    .topnav a.icon{
+        float:right;
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px){
+    .topnav.resposive {position: relative;}
+    .topnav.resposive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.resposive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.resposive .dropdown{
+        float: none;
+    }
+    .topnav.resposive .dropdown-content{
+        position: relative;
+    }
+    .topnav.resposive .dropdown .dropbtn{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+#slideshow{
+    margin:50px auto;
+    position: absolute;
+    width: 100;
+    height: 100%;
+    padding: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.side-content img{
+   width: 60%;
+   height:20%;
+   
+   
+}
+.side-content p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.header-mid{
+    height:140px;
+}
+.header-wrapper, .header-mid{
+    background-color: #000000;
+}
+.header-mid{
+    padding:0;
+    position: relative;
+    z-index:101;
+    overflow:hidden;
+}
+
+.header-wrapper .header {
+height: auto;
+background:linear-gradient(to right, #a6ec47, #69ca19) ;
+background-image:linear-gradient(-90deg, #a6ec47, #56a713) ;
+}
+
+.header-wrapper .text-center{
+    text-align: center;
+}
+.header{
+    left: 0px;
+    z-index: 99;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 0 13px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.25);
+
+   backface-visibility: hidden;
+
+}
+
+
+.body{width: 100%;}
+.header, .header-wrapper{
+    
+    right: 0px;
+}
+
+/*slide show*/
+@media screen and (max-width:700px) {
+    .owl-carousel{
+        flex-direction: column;
+    }
+}
+.owl-carousel{
+    margin:0.5px 0;
+     max-width: 100%;
+     
+     background-position: none;
+    }
+.owl-carousel .item{height:30rem;
+    width: 95%;
+padding-bottom: 10rem; 
+
+    padding:0.01em;padding-top: 0.01em}
+    .owl-carousel img{
+        border-image-width: 200px;
+        max-height: 100%;
+        }
+
+        @media only screen and (max-width:700px)
+        {.owl-carousel .item{
+            width: 100%;
+            height: 100%;
+        }}
+
+.owl-carousel .item-video{
+    height:500px; width: 100%;}
+    /*slide show end*/
+    
+#demos #setup{
+    margin-top:4rem}
+.demo-list h5{
+    margin:0}
+
+
+@media only screen and (max-width:700px)
+{.demo-list [class*="column"]+[class*="column"]:last-child{float:left}}
+
+/*left content bar*/
+/*reow side to side*/
+* { box-sizing: border-box;}
+.column {
+  float: left;
+  width: 30%;
+ border-image-width: 150px;
+  padding: 2px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width:700px) {
+    .column {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:700px) {
+    .row {
+        flex-direction: row;
+    }
+}
+
+
+/*test*/
+*{box-sizing: border-box}
+.left{
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 70%;
+    
+}
+@media screen and (max-width:700px) {
+    .left{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+/*tab content*/
+.tabcontent{
+    float: right;
+    text-align: center;
+    background-color: grey;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width:30%;
+    height: 100%;
+    border-left: none;
+    background-color: rgb(201, 252, 191);
+    
+}
+
+@media screen and (max-width:700px) {
+    .tabcontent{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/*tab content 2*/
+.tabcontent2{
+    text-align: center;
+    float: right;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width:30%;
+    height: 100%;
+    border-left: none;
+    background-color: rgb(201, 252, 191);
+}
+@media screen and (max-width:700px) {
+    .tabcontent2{
+        flex-direction: column;
+        width: 100%;
+        align-content:center;
+    }
+}
+/*video heading*/
+
+.videoheading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: grey;
+    background-size: 10rem 10rem;
+    
+}
+.videoheading:hover{
+    background-color:#555;
+    color: rgb(101, 214, 101);
+}
+
+/*CLICK BACKGROUNDS*/
+.click {
+    color:white;
+    background-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.trendtext{
+    background-color: rgb(218, 218, 218);
+}
+.column:hover {
+    background-color:#555;
+    color: rgb(2, 1, 1);
+}
+.trendtext:hover {
+    background-color:#555;
+    color: rgb(101, 214, 101);
+}
+.click{
+    background-color: black;
+    text-align: center;
+    
+    
+}
+.click:hover{
+    background-color:#555;
+    color: rgb(101, 214, 101);
+}
+.clicker{
+
+    text-align: center;
+    
+    
+}
+.clicker:hover{
+    height: 50px;
+    background-color:#555;
+    color: rgb(101, 214, 101);
+}
+.h1{
+    text-align: center;
+    background-color: thistle;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.h2{
+    text-align: center;
+    
+}
+@media screen and (max-width:400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+* { box-sizing: border-box;}
+.pages {
+  float: left;
+  text-align: center;
+  width: 100%;
+ border-image-width: 150px;
+  padding: 2px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pageslinks{
+    width: 20%;
+}
+.load {
+    width:20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.music{
+    width: 20%;
+    padding: 20px;
+    float: left;
+}
+
+@media screen and (max-width:700px) {
+    .music{
+        width: 40%;
+    }
+}
+
+.h2{
+    background-color: tomato;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.audio{
+    padding: 25px;
+}

@@ -1,0 +1,10 @@
+
+#demos .owl-carousel{margin:5rem 0; max-width: auto;}
+#demos .owl-carousel .item{height:10rem;width: 100%; ;padding:1rem;padding-top: 5em}
+
+#demos .owl-carousel .item-video{height:500px; width: 100%;}#demos #setup{margin-top:4rem}
+#demos .demo-list h5{margin:0}@media only screen{.demo-list [class*="column"]+[class*="column"]:last-child{float:left}}
+
+a:hover{cursor:pointer}img{max-width:100%;width:auto;height:auto}img{-ms-interpolation-mode: bicubic}
+
+
