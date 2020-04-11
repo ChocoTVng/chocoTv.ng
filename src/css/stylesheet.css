@@ -1,3 +1,6 @@
+body{
+    background-size: auto;
+}
 .logo {
     background-size: 100%;
     padding-right:20rem;
