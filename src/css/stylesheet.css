@@ -1,6 +1,7 @@
 body{
     background-size: auto;
-    background-color: lightcoral;;
+    background-color: lightcoral;
+    max-width:100%;
 }
 .logo {
     background-size: 100%;
