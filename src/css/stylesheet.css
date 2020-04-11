@@ -4,9 +4,9 @@
 }
 
 @media screen and (min-width:240px) and (max-width:400px) {
-    .body {
+    @viewport{
         float: none;
-        width: 100%;
+        Max-width: 100%;
     }
 }
 
