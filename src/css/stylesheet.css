@@ -199,7 +199,7 @@ color: black;
     display: list-item;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:300px){
     .topnav a:not(:first-child),.dropdown .dropbtn{
         display: none;
     }
@@ -361,9 +361,11 @@ padding-bottom: 10rem;
   display: table;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (min-width:240px) and (max-width:550px) {
     .column {
         flex-direction: column;
+        float: none;
+        width: 100%;
     }
 }
 @media screen and (max-width:700px) {
@@ -402,10 +404,11 @@ padding-bottom: 10rem;
     
 }
 
-@media screen and (min-width:320px) and (max-width:1200) {
+@media screen and (max-width:700px) {
     .tabcontent{
         flex-direction: column;
-        width: 50%;
+        width: 100%;
+        align-content:center;
     }
 }
 
