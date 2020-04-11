@@ -3,7 +3,12 @@
     zoom:1.0;
 }
 
-
+@media screen and (min-width:240px) and (max-width:400px) {
+    .body {
+        float: none;
+        width: 100%;
+    }
+}
 
 .logo {
     background-size: 100%;
