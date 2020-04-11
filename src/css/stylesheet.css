@@ -3,7 +3,7 @@
     zoom:1.0;
 }
 
-@media screen and (min-width:240px) and (max-width:400px) {
+@media screen and (min-width:240px) and (max-width:300px) {
     @viewport{
         float: none;
         Max-width: 100%;
