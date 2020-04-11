@@ -3,12 +3,6 @@
     zoom:1.0;
 }
 
-@media screen and (min-width:600px) and (max-width:300px) {
-    @viewort{
-        Max-width: 50%;
-    }
-}
-
 .logo {
     background-size: 100%;
     padding-right:20rem;
