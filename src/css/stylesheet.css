@@ -1,7 +1,19 @@
+@viewport{
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  @-ms-viewport {
+    width: device-width ;
+  }
+  @media screen and (max-width:320){
+      body{
+          size: 100%;
+      }
+    /* CSS for screens that are 320 pixels or less will be put in this section */
+  }
 body{
     background-size: auto;
-    background-color: lightcoral;
-    max-width:100%;
+    background-color: lightcoral;;
 }
 .logo {
     background-size: 100%;
@@ -504,4 +516,47 @@ padding-bottom: 10rem;
         float: none;
         width: 100%;
     }
+}
+
+* { box-sizing: border-box;}
+.pages {
+  float: left;
+  text-align: center;
+  width: 100%;
+ border-image-width: 150px;
+  padding: 2px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pageslinks{
+    width: 20%;
+}
+
+.load {
+    width:20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.music{
+    width: 20%;
+    padding: 20px;
+    float: left;
+}
+
+@media screen and (max-width:700px) {
+    .music{
+        width: 40%;
+    }
+}
+
+.h2{
+    background-color: tomato;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.audio{
+    padding: 25px;
 }
