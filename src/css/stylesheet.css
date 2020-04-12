@@ -3,7 +3,7 @@
     zoom: 1.0 ;
   }
   @-ms-viewport {
-    width: device-width ;
+    width: 720px ;
   }
   @media screen and (max-width:720){
       body{
@@ -13,7 +13,7 @@
   }
 body{
     background-size: auto;
-    background-color: lightcoral;;
+    background-color: lightcoral;
 }
 .logo {
     background-size: 100%;
