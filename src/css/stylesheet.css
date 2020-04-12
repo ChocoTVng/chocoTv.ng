@@ -3,7 +3,7 @@
     zoom: 1.0 ;
   }
   @-ms-viewport {
-    width: 720px ;
+    max-width: 100%;
   }
   @media screen and (max-width:720){
       body{
