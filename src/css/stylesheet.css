@@ -2,7 +2,7 @@
     width: device-width ;
     zoom: 1.0 ;
   }
-  @media screen and (min-width:720px) {
+  @media screen and (max-width:640px) {
     body{
         max-width: 720px;
        
@@ -10,7 +10,6 @@
 }
 body{
     background-size: auto;
-    background-color: lightcoral;
 }
 .logo {
     background-size: 100%;
