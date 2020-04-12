@@ -5,9 +5,9 @@
   @-ms-viewport {
     width: device-width ;
   }
-  @media screen and (max-width:320){
+  @media screen and (max-width:720){
       body{
-          size: 100%;
+          width: 720px;
       }
     /* CSS for screens that are 320 pixels or less will be put in this section */
   }
