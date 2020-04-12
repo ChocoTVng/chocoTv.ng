@@ -75,18 +75,24 @@ body{
 }
 .side{
     float: left;
-    
     flex: 50%;
     background-color: white;
     padding: 20px;
     text-align: center;
     
 }
-.side .h{
+
+.tablebg{
+    background-color:#A4C6E9;
+    float: left;
+    padding: 5px;
+}
+.h{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bolder;
     font-size: 25px;
     color: forestgreen;
+    text-align: center;
 }
 
 .main{
@@ -348,23 +354,30 @@ padding-bottom: 10rem;
 /*reow side to side*/
 * { box-sizing: border-box;}
 .column {
-  float: left;
+  float: left; 
   width: 30%;
  border-image-width: 150px;
-  padding: 2px;
+  padding: 5px;
+  height: 300px;
 }
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 @media screen and (min-width:240px) and (max-width:550px) {
     .column {
         flex-direction: column;
         float: none;
         width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width:551px)and (max-width:900px){
+    .column {
+        height: 300px;
+        padding:10px
+    }
+}
+@media screen and (min-width:901px){
+    .column {
+        height: 380px;
+        padding:10px
     }
 }
 @media screen and (max-width:700px) {
@@ -372,6 +385,13 @@ padding-bottom: 10rem;
         flex-direction: row;
     }
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 
 
 /*left column layout*/
@@ -445,13 +465,19 @@ padding-bottom: 10rem;
 
 /*CLICK BACKGROUNDS*/
 .click {
-    color:white;
-    background-size:20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blanchedalmond;
+    background-color:#A4C6E9;
+    float: right;
+    padding: 5px;
+    background-color: #C67A1E;
     text-align: center;
+    padding: 10px;
 }
 .trendtext{
-    background-color: rgb(218, 218, 218);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #C67A1E;
+    font-weight: bold;
+    padding:8px;
 }
 .column:hover {
     background-color:#555;
@@ -461,12 +487,7 @@ padding-bottom: 10rem;
     background-color:#555;
     color: rgb(101, 214, 101);
 }
-.click{
-    background-color: black;
-    text-align: center;
-    
-    
-}
+
 .click:hover{
     background-color:#555;
     color: rgb(101, 214, 101);
