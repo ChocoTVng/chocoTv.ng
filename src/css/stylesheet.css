@@ -587,7 +587,7 @@ padding-bottom: 10rem;
 @media screen and (max-width:551px) {
     .footerimg{
         float: none;
-        width: 120px;        
+        width: 50px;        
     }
 }
 .footerh{
@@ -623,11 +623,11 @@ padding-bottom: 10rem;
 }
 @media screen and (max-width:400px) {
     .contacttext{
-            font-size: 10px;
+            font-size: 30px;
     }
 }
 @media screen and (max-width:400px) {
     .contactlinks{
-            font-size:10px;
+            font-size:30px;
     }
 }
