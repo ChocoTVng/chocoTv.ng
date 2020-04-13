@@ -618,8 +618,16 @@ padding-bottom: 10rem;
         width: 50%;      
     }
 }
-@media screen and (max-width:550px) {
+.contacttext{
+    padding-left: 10px;
+}
+@media screen and (max-width:400px) {
     .contacttext{
+            font-size: 2px;
+    }
+}
+@media screen and (max-width:400px) {
+    .contactlinks{
             font-size: 2px;
     }
 }
