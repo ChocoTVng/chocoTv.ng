@@ -117,15 +117,13 @@ body{
 .footer{
     background-color: teal;
     align-content: center;
-    
-    
-    
+    padding: 15px;
 }
+
 .foot{
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-   
 }
 
 @media screen and (max-width:700px) {
@@ -593,6 +591,20 @@ padding-bottom: 10rem;
 .footerh{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+}
+
+.footerh1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    float: none;
+    padding: 7px;
+    width: 150px;
+    background-color:#C67A1E ;
+}
+.footerh1:hover{
+    background-color:#555;
+    color: rgb(101, 214, 101);
 }
 @media screen and (max-width:551px) {
     .footerimg{
