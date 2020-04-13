@@ -3446,3 +3446,7 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
