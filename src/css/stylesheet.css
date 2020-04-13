@@ -587,12 +587,17 @@ padding-bottom: 10rem;
 @media screen and (max-width:551px) {
     .footerimg{
         float: none;
-        width: 96px;        
+        width: 120px;        
     }
 }
 .footerh{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+}
+@media screen and (max-width:551px) {
+    .footerimg{
+        font-size: 20px;        
+    }
 }
 
 .contactlinks{
