@@ -606,6 +606,12 @@ padding-bottom: 10rem;
 .contactus{
     width: 100%;
 }
+@media screen and (max-width:551px) {
+    .contactus{
+        float: none;
+        width: 70%;      
+    }
+}
 @media screen and (min-width:700px) {
     .contactus{
         float: none;
