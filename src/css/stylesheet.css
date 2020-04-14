@@ -448,12 +448,19 @@ padding-bottom: 10rem;
         align-content:center;
     }
 }
+
+/*youtube video*/
+.youtube{
+    padding: 10px;
+width:100%; height:100%;
+}
 /*video heading*/
 
 .videoheading{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: grey;
+    background: #C67A1E;
+    color: white;
     background-size: 10rem 10rem;
     
 }
@@ -649,3 +656,53 @@ padding-bottom: 10rem;
     }
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    border-radius: 50%;
+    background: #3B5998;
+    color: white;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+/* instagram */
+  .fa-instagram {
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 220px;
+    line-height: 250px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  /* youtube */
+  .fa-youtube {
+      font-size:48px;
+      color:red;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
