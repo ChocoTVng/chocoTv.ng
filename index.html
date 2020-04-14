@@ -172,11 +172,34 @@
     </div>
     
 
-    
-
-
-  <div id="right" class="tabcontent" class="h1">
-      <h2>Send Us a Mail</h2>​<form action="mailto:aoatayo@gmail.com" method="post" enctype="text/plain">Name:<br><input type="text" name="name"><br>E-mail:<br><input type="text" name="mail"><br>Comment:<br><input type="text" name="comment" size="auto" style="height:200px"><br><br><input type="submit" value="Send"><input type="reset" value="Reset"></form>
+    <div id="right" class="tabcontent" class="h1">
+     <html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register">
+			<h1>Register</h1>
+			<form action="register.php" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required>
+				<input type="submit" value="Register">
+			</form>
+		</div>
+	</body>
+</html>
       <h1 class="h1">NEW POSTS</h1>
       <img src="src/img/ajax-loader.gif" class="h2"  align="center"><h2 style="font-size: 10px;">Loading</h2>
       
